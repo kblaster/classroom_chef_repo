@@ -1,10 +1,12 @@
 name 'haproxy'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'kblaster'
+maintainer_email 'kblaster@kblaster.kk'
 license 'all_rights'
 description 'Installs/Configures haproxy'
 long_description 'Installs/Configures haproxy'
-version '0.1.2'
+version '0.2.0'
+
+depends 'apache', '>= 0.3.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
